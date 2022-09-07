@@ -1,0 +1,11 @@
+---
+export interface Props {
+	username: string;
+	href: string;
+}
+
+const { username, href } = Astro.props as Props;
+---
+
+<p>Follow me on twitter <a {href} target="_blank" rel="noreferrer">@{username}</a></p>
+
