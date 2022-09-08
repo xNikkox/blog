@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/BlogPost.astro"
-title: "UnderDog Devs css-3"
+title: "UnderDog Devs css-4"
 description: "a underdog devs challange"
 publishDate: "12 Sep 2021"
 followMe:
@@ -15,5 +15,3 @@ setup: |
 ---
 
 <FollowMe username={frontmatter.followMe.username} href={frontmatter.followMe.href} />
-
-
